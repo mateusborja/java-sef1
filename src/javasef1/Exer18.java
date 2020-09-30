@@ -1,6 +1,5 @@
 package javasef1;
 
-import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
 public class Exer18 {
@@ -31,7 +30,6 @@ public class Exer18 {
 		
 		JOptionPane.showMessageDialog(null, relatorio);
 		System.exit(0);
-		
 		
 	}
 	
