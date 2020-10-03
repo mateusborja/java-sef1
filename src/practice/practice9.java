@@ -20,6 +20,7 @@ public class practice9 {
 		
 		double media = total / 12;
 		JOptionPane.showMessageDialog(null, nome + " " + "Seu 13 salário é" + " " + media);
+		System.exit(0);
 
 
 	}
