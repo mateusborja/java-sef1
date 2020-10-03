@@ -1,5 +1,6 @@
 package javasef1;
 
+// annual salary
 import javax.swing.JOptionPane;
 
 public class Exer20 {
@@ -11,7 +12,7 @@ public class Exer20 {
 		double totais = 0;
 
 		while (ct <=12) {
-		String salario = JOptionPane.showInputDialog(nome + espaco + "Digite seu " + ct + espaco +"salário");
+		String salario = JOptionPane.showInputDialog("Digite seu " + ct + espaco +"salário");
 		double valor = Double.parseDouble(salario);
 		totais += valor;
 
@@ -19,7 +20,7 @@ public class Exer20 {
 
 		}
 		double media = totais / 12;
-		JOptionPane.showMessageDialog(null, nome + "Seu 13 sal�rio �" + espaco + media);
+		JOptionPane.showMessageDialog(null, " O 13 salário do" + espaco + nome  + espaco + "é" + espaco + media);
 		System.exit(0);
 
 	}
