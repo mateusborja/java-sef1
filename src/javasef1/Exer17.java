@@ -5,19 +5,21 @@ import javax.swing.JOptionPane;
 public class Exer17 {
 	public static void main(String[] args) {
 		
-		String idade = JOptionPane.showInputDialog("Digite sua idade?");
-		String relatorio = " ";
-		int var1 = Integer.parseInt(idade);
+		String nome = JOptionPane.showInputDialog("Digite seu Nome?");
+		String idade = JOptionPane.showInputDialog(nome + " " + "qual sua Idade?");
+		String relatorio = "";
+		
+		int age = Integer.parseInt(idade);
 		
 		
-		if (var1 > 18) {
-			relatorio = "Voce ja pode tirar sua carteira de Motorista";
+		if (age <=18) {
+			relatorio = nome + ", " + "você não pode tirar sua Habilitação.";
 		} else {
-			relatorio = "Voce n�o pode tirar sua carteira de Motorista";
-
+			relatorio = nome + ", " + "você já pode tirar sua Habilitação.";
 		}
 		
 		JOptionPane.showMessageDialog(null, relatorio);
+		
 		System.exit(0);
 		
 	}
