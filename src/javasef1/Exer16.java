@@ -1,13 +1,36 @@
 package javasef1;
 
-import javax.swing.JOptionPane;
-
 public class Exer16 {
 	public static void main(String[] args) {
+		int v1 = 10;
+		
+		if (v1 > 5) {
+			System.out.println("Ã© maior");
+			System.out.println("bloco1" + "\n");
+		} else {
+			System.out.println("Ã© menor");
+			System.out.println("bloco2");
+		}
+		
+		System.out.println("o programa continua..." + "\n");
+		
+		if (v1 > 20) {
+			System.out.println("e maior");
+			System.out.println("bloco 3");
+			
+		} else {
+			System.out.println("Ã© menor");
+			System.out.println("bloco 4" + "\n");
+		}
+		
+		System.out.println("o programa continua" + "\n");
+		
+		
+		//example 02
 		int var1 = 10;
 		int var2 = 20;
-		String solution1 = "Solução Verdadeira";
-		String solution2 = "Solução Falsa";
+		String solution1 = "SoluÃ§Ã£o Verdadeira";
+		String solution2 = "SoluÃ§Ã£o Falsa";
 		
 		if (var1 > var2) {
 			System.out.println(solution1); 
