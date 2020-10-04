@@ -1,4 +1,4 @@
-//java scope
+//java new scope
 package javasef1;
 
 public class Exer31 {
