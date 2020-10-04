@@ -22,6 +22,8 @@ public class Exer37 {
 		int c = var >= 10 ? 50 : 150;
 		System.out.println("\n" + "O valor de c = " + c);
 		
+		
+		
 	}
 	
 	
