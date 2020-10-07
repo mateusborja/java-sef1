@@ -2,24 +2,20 @@
 package practice;
 
 public class practice15 {
-	public static void main(String[] args) {
-
-//		int i;
-		int j;
-
-		int[] range1 = new int[100], range2 = new int[999];
-
-		int sum = 1;
-
-		int total = 0;
-
-		for (int i : range1) {
-			total++;
-			total += i;
-			System.out.printf("Total de elementos range1: %d\n", total);
-
-		} 
-
-	}
-
+	public static void main(String[] args) { 
+		
+		int i,j;
+		
+		for (i=100; i < 1000; i++) {
+			for (j=100; j < 1000; j++) {
+				int n = i + j;
+				if (n ==888) {
+					System.out.println(i + " + " + j + " = " + n);
+				}
+			}
+		}
+		
+	} 
 }
+
+
