@@ -19,6 +19,8 @@ public class practice16 {
 		}
 		
 		JOptionPane.showMessageDialog(null, "Relatório" + " \n" + rel);
+		
+		
 
 	}
 
