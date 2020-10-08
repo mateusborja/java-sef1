@@ -1,7 +1,7 @@
 package practice;
 
 //java do while
-public class practice12 {
+public class Practice12 {
 	public static void main(String[] args) {
 		int var1 = 1;
 		

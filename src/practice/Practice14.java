@@ -3,7 +3,7 @@ package practice;
 
 import javax.swing.JOptionPane;
 
-public class practice14 {
+public class Practice14 {
 	public static void main(String[] args) {
 		String qtd = JOptionPane.showInputDialog("Quanto filhos você tem?");
 		int filhos = Integer.parseInt(qtd);

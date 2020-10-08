@@ -1,6 +1,6 @@
 package practice;
 
-public class practice4 {
+public class Practice4 {
 	public static void main(String[] args) {
 		int v1 = 10;
 		String result1 = "Valor maior ou igual a " + v1;

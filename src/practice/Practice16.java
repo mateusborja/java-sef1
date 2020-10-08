@@ -3,7 +3,7 @@ package practice;
 
 import javax.swing.JOptionPane;
 
-public class practice16 {
+public class Practice16 {
 	public static void main(String[] args) {
 		String seunome = JOptionPane.showInputDialog("Qual seu Nome?");
 		String qtd = JOptionPane.showInputDialog(seunome + " quantos filhos você tem?");

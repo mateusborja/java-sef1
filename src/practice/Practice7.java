@@ -3,7 +3,7 @@ package practice;
 import javax.swing.JOptionPane;
 
 // annual salary
-public class practice7 {
+public class Practice7 {
 	public static void main(String[] args) {
 		String nome = JOptionPane.showInputDialog("Digite seu nome?");
 		int ct = 1;

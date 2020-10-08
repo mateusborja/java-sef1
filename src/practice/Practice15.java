@@ -1,7 +1,7 @@
 //sum number 888
 package practice;
 
-public class practice15 {
+public class Practice15 {
 	public static void main(String[] args) { 
 		
 		int i,j;

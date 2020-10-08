@@ -1,7 +1,7 @@
 //strings
 package practice;
 
-public class practice17 {
+public class Practice17 {
 	public static void main(String[] args) {
 		String a = "Vinicius";
 		String b = "Lucas";

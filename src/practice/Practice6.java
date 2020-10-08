@@ -3,7 +3,7 @@ package practice;
 import java.util.Scanner;
 
 //Abreviation Name app
-public class practice6 {
+public class Practice6 {
 	
 	@SuppressWarnings("resource")
 	public static void main(String[] args) {

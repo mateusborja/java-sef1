@@ -2,7 +2,7 @@ package practice;
 
 import javax.swing.JOptionPane;
 
-public class practice8 {
+public class Practice8 {
 	public static void main(String[] args) {
 		String nome = JOptionPane.showInputDialog("Digite seu Nome");
 		

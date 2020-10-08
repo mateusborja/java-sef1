@@ -4,7 +4,7 @@
 //app 50
 package practice;
 
-public class practice18 {
+public class Practice18 {
 	public static void main(String[] args) {
 		int i,j;
 		

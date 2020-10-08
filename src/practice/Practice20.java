@@ -1,10 +1,8 @@
 package practice;
 
-public class practice3 {
+public class Practice20 {
 	public static void main(String[] args) {
-		
-	
-		
+
 	}
 
 }
